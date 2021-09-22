@@ -22,7 +22,7 @@ This project was created and published by me as part of my learnings at Lighthou
 
 `const results = _.tail([1, 2, 3]) // => [2, 3]`
 
-## Documentation
+## Documentation -
 
 The following functions are currently implemented:
 
@@ -40,7 +40,7 @@ The following functions are currently implemented:
 
 * eqObjects: Will compare two objects for equivalence
 
-  * findKey: Will take an object and will identify the key that corresponds to a value that is evaluated by a callback function(second argument).
+* findKey: Will take an object and will identify the key that corresponds to a value that is evaluated by a callback function(second argument).
 
 * findKeyByValue: Will take an object and will identify the key that corresponds to a given value in a key- value pair.
 flatten: Takes an array of nested arrays, and returns an array with no nesting.
