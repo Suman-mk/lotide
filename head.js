@@ -20,3 +20,5 @@ assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
 assertEqual(1, 1);
 
 module.exports = head
+
+
