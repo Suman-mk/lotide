@@ -38,8 +38,8 @@ const eqArrays = function(arr1, arr2) {
       let midIndex1 = (arr.length/2) -1;
       let midIndex2 = midIndex1 + 1;
       let midArr = []
-      middleArr.push(arr[midIndex1])
-      middleArr.push(arr[midIndex2])
+      midArr.push(arr[midIndex1])
+      midArr.push(arr[midIndex2])
       return midArr;
     }
   };
