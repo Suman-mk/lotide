@@ -1,16 +1,6 @@
 var array = ['a', 'b', 'c'];
 
-
-const assertEqual = function(array, expected) {
-  
-
-  
-  if(array== expected)
-  console.log("Assertion passed, 1=1");
-  else
-  console.log("Assertion failed, lighthouse != Bootcamp");
-
-};
+const assertEqual = require('./assertEqual');
 
 // TEST CODE
 const tail = function (arr) {

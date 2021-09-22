@@ -1,11 +1,5 @@
 
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log("😀" + `Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log("🙁" + `Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+const assertEqual = require('./assertEqual');
 
 //The map function will return a new array based on the results of the callback function.
 

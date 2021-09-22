@@ -1,11 +1,4 @@
-const assertEqual = function(actual, expected) {
-  if(actual == expected)
-  console.log("Assertion passed, 1=1");
-  else
-  console.log("Assertion failed, lighthouse != Bootcamp");
-};
-
-// TEST CODE
+const assertEqual = require('./assertEqual');
 
 const head = function (arr) {
   let head1 = [];

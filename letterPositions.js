@@ -1,13 +1,5 @@
+const assertEqual = require('./assertEqual');
 
-const assertEqual = function(actual, expected) {
-  for(let i=0; i<actual.length; i++) {
-    for(let j=0; j <= i; j++) {
-      if(actual[i] !== expected[j]) {
-        return console.log (":)" + `Assertion failed: [${actual}] !== [${expected}]`)
-      }    }
-  }
-  return console.log (":)" + `Assertion passed: [${actual}] === [${expected}]`)
-};
 //implement a new function letterPositions which will return all the indices (zero-based positions) in the string where each character is found.
 
 const letterPositions = function(sentence) {

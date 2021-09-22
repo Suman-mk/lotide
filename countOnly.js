@@ -1,12 +1,6 @@
-//Copy your assertEqual function into this new file.
+//using your assertEqual function into this new file.
 
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log("😀" + `Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log("🙁" + `Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+const assertEqual = require('./assertEqual');
 
 //countOnly will be given an array and an object. It will return an object containing counts of everything that the input object listed.
 
@@ -24,7 +18,6 @@ const countOnly = function(allItems, itemsToCount) {
       }
     }
   }
-  console.log(results)
   return results;
 
 }

@@ -1,15 +1,6 @@
-//copy assertEqual function
+//using  assertEqual function
 
-const assertEqual = function(actual, expected) {
-  for(let i=0; i<actual.length; i++) {
-    for(let j=0; j <= i; j++) {
-      if(actual[i] !== expected[j]) {
-        return console.log (":)" + `Assertion failed: [${actual}] !== [${expected}]`)
-      }    }
-  }
-  return console.log (":)" + `Assertion passed: [${actual}] === [${expected}]`)
-};
-
+const assertEqual = require('./assertEqual');
 
 // copy eqArray function
 
@@ -29,7 +20,7 @@ const eqArrays = function(arr1, arr2) {
 
   //This function should take in a source array and a itemsToRemove array. It should return a new array with only those elements from source that are not present in the itemsToRemove array.
 
-  const without = function (source, itemsToRemove) {       //
+  const without = function (source, itemsToRemove) {       
     let result = []
     for (i = 0; i < source.length; i++) {
       let foundMatch = false
