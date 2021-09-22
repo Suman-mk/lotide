@@ -1,22 +1,4 @@
-console.assert(1 === 1);
-console.assert(1 === 1.1);
 
-const sum = function(a, b) { 
-  return a + b;
-}
-
-// TEST CODE
-console.assert(sum(1, 2) === 3);
-console.assert(sum(1, 20) === 3); // bad / incorrect assertion, and we see it fail!
-
-// FUNCTION IMPLEMENTATION
-const sumBuggy = function(a, b) { 
-  return a * b;
-}
-
-// TEST CODE
-console.assert(sumBuggy(1, 2) === 3); // fails, because bug!
-let emoji = String.fromCodePoint(0x1F621);
 
 // FUNCTION IMPLEMENTATION
 const assertArraysEqual = function(actual, expected) {
@@ -30,16 +12,3 @@ const assertArraysEqual = function(actual, expected) {
 };
 
 module.exports = assertArraysEqual;
-
-// TEST COD
-/* assertArraysEqual('Lighthouse Labs", "Bootcamp');
-assertArraysEqual(1, 1);
-
-
-const name = 'Alice';
-console.log(`Hello, ${name}!`); // logs: Hello, Alice!
-*/
-
-
-//ou expected to see no output at all? Correct!
-//Why? Because we call the function but the function itself does nothing? Sure, but more specifically because we are not printing/logging anything to the console anywhere.
