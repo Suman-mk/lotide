@@ -19,7 +19,7 @@ console.assert(sumBuggy(1, 2) === 3); // fails, because bug!
 let emoji = String.fromCodePoint(0x1F621);
 
 // FUNCTION IMPLEMENTATION
-const assertEqual = function(actual, expected) {
+const assertArraysEqual = function(actual, expected) {
   for(let i=0; i<actual.length; i++) {
     for(let j=0; j <= i; j++) {
       if(actual[i] !== expected[j]) {
@@ -29,11 +29,11 @@ const assertEqual = function(actual, expected) {
   return console.log (":)" + `Assertion passed: [${actual}] === [${expected}]`)
 };
 
-module.exports = assertEqual;
+module.exports = assertArraysEqual;
 
 // TEST COD
-/* assertEqual('Lighthouse Labs", "Bootcamp');
-assertEqual(1, 1);
+/* assertArraysEqual('Lighthouse Labs", "Bootcamp');
+assertArraysEqual(1, 1);
 
 
 const name = 'Alice';
