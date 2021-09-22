@@ -23,3 +23,5 @@ const results2 = takeUntil(data2, x => x === ',');
 
 assertEqual(results1, [1, 2, 5, 7, 2]);
 assertEqual(results2, ["I've", "been", "to", "Hollywood"]);
+
+module.exports = takeUntil

@@ -18,7 +18,7 @@ module.exports = function() {
 // Etc.
 
 // index.js
-const assertArraysEqual = require('./assertArraysEqual');
+const assertArrayEqual = require('./assertArrayEqual');
 const assertEqual = require('./assertEqual');
 const assertObjectsEqual = require('./assertObjectsEqual');
 const countLetters = require('./countLetters');

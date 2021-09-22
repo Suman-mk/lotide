@@ -18,12 +18,4 @@ const countLetters = function(string) {
   return result;
 };
 
-const string = "lighthouse in the house";
-
-const result = countLetters(string);
-
-assertEqual(result["b"], 1);
-
-assertEqual(result["a"], 3);
-
-assertEqual(result["x"], undefined);
+module.export = countLetters

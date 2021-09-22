@@ -54,3 +54,5 @@ assertEqual(eqObjects(abc, cab), false);
 assertEqual(eqObjects(cab, xyz), false);
 assertEqual(eqObjects(cd, dc), true);
 assertEqual(eqObjects(cd, cd2) , false);
+
+module.exports = eqObjects

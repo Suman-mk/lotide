@@ -42,3 +42,5 @@ const eqArrays = function(arr1, arr2) {
 without(words, ["lighthouse"]); // no need to capture return value for this test case
 // Make sure the original array was not altered by the without function
 assertEqual(words, ["hello", "world", "lighthouse"]);
+
+module.exports = without
