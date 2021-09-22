@@ -18,4 +18,4 @@ const countLetters = function(string) {
   return result;
 };
 
-module.export = countLetters
+module.exports = countLetters
