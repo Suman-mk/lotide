@@ -1,5 +1,6 @@
 const assertEqual = require('./assertEqual');
 
+
   const middle = function(arr) {
     if(arr.length === 1 || arr.length === 0 || arr.length === 2) {
       return []
