@@ -1,9 +1,5 @@
 const assertEqual = require('./assertEqual');
 
-
-// copy eqArray function
-
-
   const middle = function(arr) {
     if(arr.length === 1 || arr.length === 0 || arr.length === 2) {
       return []
@@ -22,5 +18,5 @@ const assertEqual = require('./assertEqual');
       return midArr;
     }
   };
-  
+
 module.exports = middle

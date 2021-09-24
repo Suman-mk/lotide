@@ -1,21 +1,18 @@
-// Example 1
-// Can export a number (not common, but JS won't stop me!)
+
 module.exports = 5;
 
-// Example 2
-// Can export an object (quite common!)
+
 module.exports = { 
   firstName: "Lighthouse",
   lastName:  "Labs"
 }
 
-// Example 3
-// Can export a function (we did this for all our functions)
+
 module.exports = function() {
   return "developers, developers, developers!"; 
 }
 
-// Etc.
+
 
 // index.js
 const assertArrayEqual = require('./assertArrayEqual');

@@ -1,4 +1,3 @@
-//using your assertEqual function into this new file.
 
 const assertEqual = require('./assertEqual');
 
