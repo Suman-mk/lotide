@@ -1,4 +1,4 @@
-  const flatten = function(original){
+const flatten = function(original){
     let flatArray = []
     let flattenedPiece = ""
     for(i = 0; i < original.length; i++) {
@@ -15,6 +15,6 @@
     return flatArray
   };
 
-  module.exports = flatten
+module.exports = flatten
 
   

@@ -1,7 +1,5 @@
 const assertEqual = require('./assertEqual');
 
-//implement a new function letterPositions which will return all the indices (zero-based positions) in the string where each character is found.
-
 const letterPositions = function(sentence) {
   const results = {};
   let sentenceArray = sentence.split('');

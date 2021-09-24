@@ -1,39 +1,37 @@
 
-module.exports = 5;
+export default 5;
 
 
-module.exports = { 
-  firstName: "Lighthouse",
-  lastName:  "Labs"
-}
+export const firstName = "Lighthouse";
+export const lastName = "Labs";
 
 
-module.exports = function() {
+export default function() {
   return "developers, developers, developers!"; 
 }
 
 
 
 // index.js
-const assertArrayEqual = require('./assertArrayEqual');
-const assertEqual = require('./assertEqual');
-const assertObjectsEqual = require('./assertObjectsEqual');
-const countLetters = require('./countLetters');
-const countOnly = require('./countOnly');
-const eqArrays = require('./eqArrays');
-const eqObjects = require('./eqObjects');
-const findKey = require('./findKey');
-const findKeyByValue = require('./findKeyByValue');
-const flatten = require('./flatten');
-const head = require('./head');
-const letterPositions = require('./letterPositions');
-const map = require('./map');
-const middle = require('./middle');
-const tail = require('./tail');
-const takeUntil = require('./takeUntil');
-const without = require('./without')
+import assertArrayEqual from './assertArrayEqual';
+import assertEqual from './assertEqual';
+import assertObjectsEqual from './assertObjectsEqual';
+import countLetters from './countLetters';
+import countOnly from './countOnly';
+import eqArrays from './eqArrays';
+import eqObjects from './eqObjects';
+import findKey from './findKey';
+import findKeyByValue from './findKeyByValue';
+import flatten from './flatten';
+import head from './head';
+import letterPositions from './letterPositions';
+import map from './map';
+import middle from './middle';
+import tail from './tail';
+import takeUntil from './takeUntil';
+import without from './without';
 
-module.exports = {
+export default {
   assertArrayEqual, 
   assertEqual,
   assertObjectsEqual,

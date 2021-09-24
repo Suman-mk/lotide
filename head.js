@@ -9,7 +9,7 @@ const head = function (arr) {
     }
   }
   return head1[0];
-}
+} 
 
 module.exports = head
 
