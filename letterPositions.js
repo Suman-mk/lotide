@@ -19,12 +19,4 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-const sentence = "hello";
-
-const resultObject = letterPositions(sentence);
-
-assertEqual(resultObject["h"], [0]);
-
-assertEqual(resultObject["e"], [1]);
-
 module.exports = letterPositions

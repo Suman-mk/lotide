@@ -5,7 +5,7 @@ const assertEqual = require('./assertEqual');
 
 
   const middle = function(arr) {
-    if(arr.length === 1 || arr.length === 0) {
+    if(arr.length === 1 || arr.length === 0 || arr.length === 2) {
       return []
     } 
     else if (arr.length % 2 !== 0) {
@@ -22,6 +22,5 @@ const assertEqual = require('./assertEqual');
       return midArr;
     }
   };
-
-
-  module.exports = middle
+  
+module.exports = middle
